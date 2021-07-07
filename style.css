@@ -1,0 +1,116 @@
+body {
+  width: 1024px;
+  margin: 20px auto;
+
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-weight: 400px;
+
+  color: #000;
+}
+
+.wrapper {
+  width: 984px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  box-shadow: 0 0 15px 10px gray;
+  background-color: lightblue;
+}
+
+.fullname {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  margin-bottom: 20px;
+  padding-top: 20px;
+
+  box-shadow: 2px 0 5px 2px black;
+}
+
+.contacts__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.contacts__title {
+  margin: 0;
+  margin-left: 10px;
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts__list li {
+  padding-top: 10px;
+}
+
+.contacts__phone,
+.contacts__email,
+.contacts__linkedin,
+.contacts__skype {
+  font-weight: 700;
+}
+
+.contacts__linkedin {
+  text-decoration: none;
+  color: #000;
+}
+
+.contacts__photo {
+  margin: 0;
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.introduction,
+.skills {
+  width: 472px;
+  padding-left: 10px;
+
+  box-shadow: 2px 0 5px 2px #000;
+}
+
+.skills__list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills__sublist {
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.experience,
+.education,
+.english {
+  margin-bottom: 20px;
+  padding: 10px;
+
+  box-shadow: 2px 0 5px 2px #000;
+}
+
+.education__list {
+	padding: 0;
+	
+	list-style: none;
+	color: blue;
+}
+
+.education__link {
+	color: blue;
+}
